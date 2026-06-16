@@ -1,0 +1,5 @@
+let nome = "Estela";
+let sexo = "feminino";
+
+console.log(`Seu nome é ${nome}`);
+console.log(`Seu sexo é ${sexo}`);
