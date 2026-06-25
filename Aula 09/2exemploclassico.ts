@@ -1,0 +1,19 @@
+class Produto {
+nome: string;
+preco: number;
+constructor(nome: string, preco: number) {
+this.nome = nome;
+this.preco = preco;
+}
+aplicarDesconto(): number {
+return this.preco * 0.9; // 10% de desconto
+}
+exibirInfo(): void {
+console.log(`${this.nome}: R$ ${this.preco}`);
+console.log(`Com desconto: R$ ${this.aplicarDesconto()}`);
+}
+}
+let produto = new Produto("Celular", 2500);
+produto.exibirInfo();
+// Saída: Notebook: R$ 
+// Com desconto: R$ 
