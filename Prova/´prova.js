@@ -26,8 +26,6 @@ function calcularValorEstoque(produto) = {
 let preço = 0;
 let quantidade = 0;
 
-for(let = 0; i > produto.legth ; i ++)
-   
-
-console.log("estoque ok")
-    
+for(let = 0; i < 5, produto.legth ; i ++)
+    console.log("estoque ok")
+   else console.log("Estoque OK")
